@@ -1,0 +1,19 @@
+Package: LazyCircos
+Title: Reads in Gene Lists to Create Files for Circos generation (one
+        line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Ben", "Cossins", email = "CossinsBC@Cardiff.ac.uk", role = c("aut", "cre"))
+Description: Reads in lists of genes, calculates the overlapping genes, organises the overlapping genes to avvoid ribbon overlaps as best as possible, and creates the files required to create the circos plot.
+Depends: R (>= 3.4.2)
+License: GPL3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+NeedsCompilation: no
+Packaged: 2017-10-17 12:48:05 UTC; ben
+Author: Ben Cossins [aut, cre]
+Maintainer: Ben Cossins <CossinsBC@Cardiff.ac.uk>
+Built: R 3.4.2; ; 2017-10-17 12:48:05 UTC; unix
+RemoteType: local
+RemoteUrl: /home/ben/R/x86_64-pc-linux-gnu-library/3.4/LazyCircos
+RemoteSha: 0.0.0.9000
