@@ -4,7 +4,8 @@ Title: Reads in Gene Lists to Create Files for Circos generation (one
 Version: 0.0.0.9000
 Authors@R: person("Ben", "Cossins", email = "CossinsBC@Cardiff.ac.uk", role = c("aut", "cre"))
 Description: Reads in lists of genes, calculates the overlapping genes, organises the overlapping genes to avvoid ribbon overlaps as best as possible, and creates the files required to create the circos plot.
-Depends: R (>= 3.4.2), readODS, openxlsx
+Depends: R (>= 3.4.2)
+Imports: readODS, openxlsx
 License: GPL3
 Encoding: UTF-8
 LazyData: true
